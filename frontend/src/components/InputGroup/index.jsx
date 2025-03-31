@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css'
 
-const FormGroup = ({label, id, type, placeholder, onChange}) => {
+const InputGroup = ({label, id, type, placeholder, onChange}) => {
     return (
         <div className="form-group flex column">
             <label htmlFor={id} >{label}</label>
@@ -10,4 +10,4 @@ const FormGroup = ({label, id, type, placeholder, onChange}) => {
     );
 };
 
-export default FormGroup;
+export default InputGroup;
