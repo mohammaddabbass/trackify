@@ -1,13 +1,12 @@
 import React from 'react';
 import './styles.css'
 
-const InputGroup = ({label, id, type, placeholder, onChange}) => {
+const InputGroup = ({ label, id, type, placeholder, onChange }) => {
     return (
-        <div className="form-group flex column">
-            <label htmlFor={id} >{label}</label>
-            <input id={id} type={type} placeholder={placeholder} onChange={onChange}/>
+        <div className="input-group">
+            <label htmlFor={id}>{label}</label>
+            <input className="input-field" id={id} type={type} placeholder={placeholder} onChange={onChange} />
         </div>
     );
 };
-
 export default InputGroup;

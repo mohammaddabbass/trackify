@@ -1,0 +1,76 @@
+.form-container {
+    background: var(--ios-system-background);
+    width: 100%;
+    max-width: 400px;
+    border-radius: var(--ios-border-radius-container);
+    padding: 2.5rem 2rem;
+    box-shadow: var(--ios-shadow-container);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.header h1 {
+    font-size: 28px;
+    color: var(--ios-label);
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.subheader {
+    color: var(--ios-secondary-label);
+    font-size: 16px;
+}
+
+.error-message {
+    color: var(--ios-system-red);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px;
+    background: rgba(255, 59, 48, 0.1);
+    border-radius: 8px;
+}
+
+.separator {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    color: var(--ios-secondary-label);
+}
+
+.separator::before,
+.separator::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid var(--ios-tertiary-background);
+}
+
+.separator span {
+    padding: 0 15px;
+}
+
+.footer-links {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.footer-links p {
+    color: var(--ios-system-blue);
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.footer-links a {
+    color: var(--ios-system-blue);
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    margin: 10px 0;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
