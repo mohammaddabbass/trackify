@@ -1,0 +1,41 @@
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 44px;
+    padding: 0 20px;
+    border-radius: var(--ios-border-radius);
+    font-size: 17px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.2s;
+    border: none;
+    margin-bottom: 12px;
+}
+
+button:hover {
+    opacity: 0.85;
+}
+
+.primary {
+    background: var(--ios-system-blue);
+    color: var(--ios-system-background);
+}
+
+.destructive {
+    background: var(--ios-system-red);
+    color: var(--ios-system-background);
+}
+
+.confirm {
+    background: var(--ios-system-green);
+    color: var(--ios-system-background);
+}
+
+
+.bordered {
+    background: transparent;
+    color: var(--ios-label);
+    border: 1px solid var(--ios-tertiary-background);
+}
