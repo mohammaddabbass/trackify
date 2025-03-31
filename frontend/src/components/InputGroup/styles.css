@@ -1,0 +1,19 @@
+.form-group {
+    gap: 0.3rem;
+}
+
+.input-field {
+    width: 100%;
+    height: 50px;
+    padding: 0 1rem;
+    border: 1px solid var(--ios-tertiary-background);
+    border-radius: var(--ios-border-radius-element);
+    font-size: 1rem;
+    background: var(--ios-system-background);
+    transition: border-color 0.2s;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: var(--ios-system-blue);
+}
