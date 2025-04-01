@@ -50,7 +50,7 @@ const Form = ({ onSubmit, error }) => {
 
                 {isLogin && (
                     <>
-                        <div className="separator">
+                        <div className="separator flex align-center">
                             <span>or</span>
                         </div>
 
