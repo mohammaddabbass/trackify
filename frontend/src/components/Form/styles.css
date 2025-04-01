@@ -9,35 +9,33 @@
 
 .header {
     text-align: center;
-    margin-bottom: 35px;
+    margin-bottom: 2.1rem;
 }
 
 .header h1 {
     font-size: 28px;
     color: var(--ios-label);
     font-weight: 600;
-    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .subheader {
     color: var(--ios-secondary-label);
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 .error-message {
     color: var(--ios-system-red);
-    font-size: 14px;
+    font-size: 0.9rem;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     padding: 8px;
     background: rgba(255, 59, 48, 0.1);
-    border-radius: 8px;
+    border-radius: var(--ios-border-radius-base);
 }
 
 .separator {
-    margin: 30px 0;
-    display: flex;
-    align-items: center;
+    margin: 2rem 0;
     color: var(--ios-secondary-label);
 }
 
@@ -49,18 +47,18 @@
 }
 
 .separator span {
-    padding: 0 15px;
+    padding: 0 1rem;
 }
 
 .footer-links {
-    margin-top: 25px;
+    margin-top: 1.5rem;
     text-align: center;
 }
 
 .footer-links p {
     color: var(--ios-system-blue);
     cursor: pointer;
-    margin: 10px 0;
+    margin: 1.1rem 0;
 }
 
 .footer-links a {
