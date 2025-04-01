@@ -8,7 +8,7 @@ const Form = ({ onSubmit, error }) => {
 
     return (
         <div className="form-container">
-            <div className="header">
+            <div className="form-header">
                 <h1>{isLogin ? 'Welcome Back' : 'Create Account'}</h1>
                 <div className="subheader">
                     {isLogin ? 'Sign in to Trackify' : 'Join our community'}

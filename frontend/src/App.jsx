@@ -1,10 +1,11 @@
 
+import Header from './components/Header'
 import AuthPage from './pages/AuthPage'
 
 function App() {
   return (
     <>
-      <AuthPage/>
+      <Header/>
     </>
   )
 }
