@@ -45,6 +45,7 @@ const Form = ({ onSubmit, error }) => {
                 <Button 
                     variant="primary"
                     buttonText={isLogin ? 'Sign In' : 'Create Account'}
+                    className='w-100'
                     onClick={onSubmit}
                 />
 
@@ -57,6 +58,7 @@ const Form = ({ onSubmit, error }) => {
                         <Button
                             variant="bordered"
                             buttonText="Continue with Google"
+                            className='w-100 '
                             onClick={() => {}}
                         />
                     </>
