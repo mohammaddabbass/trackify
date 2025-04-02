@@ -9,7 +9,7 @@ export const request = async ({ method, route, body, headers = {} }) => {
   try {
 
     const token = localStorage.getItem("bearer_token");
-
+    
     const defaultHeaders = {
       ...(token ? { Authorization: `Bearer ${token}` } : {}),
       ...headers,
