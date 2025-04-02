@@ -8,7 +8,7 @@ const Form = ({ onSubmit, error }) => {
 
     return (
         <div className="form-container">
-            <div className="header">
+            <div className="form-header">
                 <h1>{isLogin ? 'Welcome Back' : 'Create Account'}</h1>
                 <div className="subheader">
                     {isLogin ? 'Sign in to Trackify' : 'Join our community'}
@@ -45,6 +45,7 @@ const Form = ({ onSubmit, error }) => {
                 <Button 
                     variant="primary"
                     buttonText={isLogin ? 'Sign In' : 'Create Account'}
+                    className='w-100'
                     onClick={onSubmit}
                 />
 
@@ -57,6 +58,7 @@ const Form = ({ onSubmit, error }) => {
                         <Button
                             variant="bordered"
                             buttonText="Continue with Google"
+                            className='w-100 '
                             onClick={() => {}}
                         />
                     </>

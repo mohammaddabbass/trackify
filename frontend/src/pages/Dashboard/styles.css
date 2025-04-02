@@ -1,0 +1,22 @@
+.dashboard-content{
+    margin: 6rem 3rem 2rem;
+    gap: 3rem;
+}
+
+.details-container {
+    gap: 2rem;
+    flex: 1;
+}
+
+.section-1, .section-2 {
+    gap: 2rem;
+}
+
+.content-card {
+    flex-grow: 1;
+}
+
+.charts .content-card {
+    align-items: flex-start;
+    overflow: auto;
+}

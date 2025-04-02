@@ -1,0 +1,54 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+
+}
+  
+.modal-container {
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: var(--ios-border-radius-element);
+    padding: 1.1rem;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: var(--ios-shadow-container);
+}
+  
+.modal-header {
+    border-bottom: 1px solid var(--ios-tertiary-background);
+    padding-bottom: 10px;
+}
+  
+.modal-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+  
+.modal-close {
+    background: transparent;
+    font-size: 1.1rem;
+}
+  
+.modal-body {
+    padding: 20px 0;
+}
+  
+.file-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--ios-border-radius-element);
+}
+  
+.modal-footer {
+    margin-top: 10px;
+}
+  
+  
+.cancel-btn {
+    background: var(--ios-secondary-background);
+    color: #333;
+}

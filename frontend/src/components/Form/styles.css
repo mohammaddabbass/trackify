@@ -7,7 +7,7 @@
     box-shadow: var(--ios-shadow-container);
 }
 
-.header {
+.form-header {
     text-align: center;
     margin-bottom: 2.1rem;
 }
