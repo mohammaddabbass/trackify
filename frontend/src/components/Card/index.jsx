@@ -3,8 +3,8 @@ import './styles.css'
 
 const Card = ({children, width, height }) => {
     const cardStyle = {
-        width: width || 'auto', 
-        height: height || 'auto' 
+        minWidth: width || 'auto', 
+        height: height || 'auto',
     };
     return (
         <div className='content-card flex column align-center' style={cardStyle}>

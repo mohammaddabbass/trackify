@@ -5,6 +5,7 @@ import './styles.css'
 import StackedAreaChart from '../../components/StackedAreaChart';
 import PieChartComponent from '../../components/PieChartComponent';
 import BarChartComponent from '../../components/BarChartComponent';
+import Footer from '../../components/Footer';
 
 const Dashboard = () => {
     return (
@@ -13,7 +14,7 @@ const Dashboard = () => {
             <div className="dashboard-content flex column">
                 <div className="section-1 flex justify-between">
 
-                    <div className="details-container flex column">
+                    <div className="details-container flex column w-100">   
                         <Card width={'25vw'}>
                             <h2 className="title">
                                 Steps
@@ -35,7 +36,7 @@ const Dashboard = () => {
 
                     </div>
 
-                    <div className="graph">
+                    <div className="graph w-100">
                         <Card width={'65vw'} height={'78vh'}>
                             <StackedAreaChart/>
                         </Card>
@@ -43,15 +44,18 @@ const Dashboard = () => {
                 </div>
 
                 <div className="section-2 flex justify-between">
-                    <Card width={'60%'}>
-                        <PieChartComponent/>
-                    </Card>
+                    <div className="charts">
+                        <Card width={'60%'}>
+                            <PieChartComponent/>
+                        </Card>
+                    </div>
                     <Card width={'37%'}>
                         <BarChartComponent/>
                     </Card>
                 </div>
             </div>
 
+            <Footer/>
         </div>
     );
 };
